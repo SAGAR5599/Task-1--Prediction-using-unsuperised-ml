@@ -12,7 +12,11 @@ X = iris.data[:, :2]  # we will use only the first two features for visualizatio
 wcss = []
 for i in range(1, 11):
     kmeans = KMeans(n_clusters=i, init='k-means++', max_iter=300, n_init=10, random_state=0)
-    kmeans.fit(X)
+    kmeans.fit(X)DGFDSGSDHBFBFCBDSHTHBFDB 
+    GDFOGJDO
+    DSNVKS
+    BOSNKB'
+    VDFN
     wcss.append(kmeans.inertia_)
 plt.plot(range(1, 11), wcss)
 plt.title('Elbow Method')
